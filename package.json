@@ -1,0 +1,16 @@
+{
+  "name": "rpg-netuno",
+  "version": "20.15.0",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "bin": {
+    "rpg-game": "./app.js"
+  },
+  "pkg": {
+    "scripts": "start",
+    "targets": [
+      "node20-win-x64"
+    ]
+  }
+}
